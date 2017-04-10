@@ -1,0 +1,337 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>DD S</Author>
+  <LastAuthor>DD S</LastAuthor>
+  <Created>2017-04-04T10:39:03Z</Created>
+  <LastSaved>2017-04-09T10:29:42Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>5540</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" x:Family="Swiss" ss:Size="12"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s28" ss:Name="无色">
+   <Font ss:FontName="宋体" x:CharSet="134" x:Family="Swiss" ss:Size="12"
+    ss:Color="#993300"/>
+   <Interior ss:Color="#FFF58C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s62">
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s63">
+   <NumberFormat ss:Format="0.000000000000_ "/>
+  </Style>
+  <Style ss:ID="s64">
+   <NumberFormat ss:Format="0.0000000000_ "/>
+  </Style>
+  <Style ss:ID="s66" ss:Parent="s28">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#993300"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s70" ss:Parent="s28">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="工作表1">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="${invests?size + 47}" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="95"/>
+   <Column ss:AutoFitWidth="0" ss:Width="141"/>
+   <Column ss:AutoFitWidth="0" ss:Width="112"/>
+   <Column ss:AutoFitWidth="0" ss:Width="95"/>
+   <Column ss:AutoFitWidth="0" ss:Width="163"/>
+   <Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="118"/>
+   <Column ss:AutoFitWidth="0" ss:Width="140"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">李子园</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">自动舒适</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">自动豪华</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">自动豪华</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">指导价</Data></Cell>
+    <Cell><Data ss:Type="Number">154900</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">指导价</Data></Cell>
+    <Cell><Data ss:Type="Number">165900</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">指导价</Data></Cell>
+    <Cell><Data ss:Type="Number">165900</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">优惠</Data></Cell>
+    <Cell><Data ss:Type="Number">23000</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">优惠</Data></Cell>
+    <Cell><Data ss:Type="Number">23000</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">优惠</Data></Cell>
+    <Cell><Data ss:Type="Number">25900</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">祼车价</Data></Cell>
+    <Cell ss:Formula="=R[-2]C-R[-1]C"><Data ss:Type="Number">131900</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">祼车价</Data></Cell>
+    <Cell ss:Formula="=R[-2]C-R[-1]C"><Data ss:Type="Number">142900</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">祼车价</Data></Cell>
+    <Cell ss:Formula="=R[-2]C-R[-1]C"><Data ss:Type="Number">140000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">购置税</Data></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=R[-1]C/(1+17%) * (7.5%)"><Data
+      ss:Type="Number">8455.1282051282051</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">购置税</Data></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=R[-1]C/(1+17%) * (7.5%)"><Data
+      ss:Type="Number">9160.2564102564102</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">购置税</Data></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=R[-1]C/(1+17%) * (7.5%)"><Data
+      ss:Type="Number">8974.3589743589746</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">服务费</Data></Cell>
+    <Cell><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">服务费</Data></Cell>
+    <Cell><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">服务费</Data></Cell>
+    <Cell><Data ss:Type="Number">5000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">贷款手续费</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">贷款手续费</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">贷款手续费</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">保险</Data></Cell>
+    <Cell><Data ss:Type="Number">5800</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">保险</Data></Cell>
+    <Cell><Data ss:Type="Number">5800</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">保险</Data></Cell>
+    <Cell><Data ss:Type="Number">5800</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s62" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data
+      ss:Type="Number">152155.12820512822</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s62" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data
+      ss:Type="Number">163860.25641025641</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s62" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data
+      ss:Type="Number">160774.35897435897</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">贴模+3次保养</Data></Cell>
+    <Cell><Data ss:Type="Number">1800</Data></Cell>
+    <Cell><Data ss:Type="String">否则：送3桶油</Data></Cell>
+   </Row>
+   <Row ss:Index="13" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">武威路</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">自动舒适</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">自动豪华</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">自动豪华</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">指导价</Data></Cell>
+    <Cell><Data ss:Type="Number">154900</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">指导价</Data></Cell>
+    <Cell><Data ss:Type="Number">165900</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">指导价</Data></Cell>
+    <Cell><Data ss:Type="Number">165900</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">优惠</Data></Cell>
+    <Cell><Data ss:Type="Number">22500</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">优惠</Data></Cell>
+    <Cell><Data ss:Type="Number">22500</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">优惠</Data></Cell>
+    <Cell><Data ss:Type="Number">24000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">祼车价</Data></Cell>
+    <Cell ss:Formula="=R[-2]C-R[-1]C"><Data ss:Type="Number">132400</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">祼车价</Data></Cell>
+    <Cell ss:Formula="=R[-2]C-R[-1]C"><Data ss:Type="Number">143400</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">祼车价</Data></Cell>
+    <Cell ss:Formula="=R[-2]C-R[-1]C"><Data ss:Type="Number">141900</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">购置税</Data></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=R[-1]C/(1+17%) * (7.5%)"><Data
+      ss:Type="Number">8487.1794871794882</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">购置税</Data></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=R[-1]C/(1+17%) * (7.5%)"><Data
+      ss:Type="Number">9192.3076923076933</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">购置税</Data></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=R[-1]C/(1+17%) * (7.5%)"><Data
+      ss:Type="Number">9096.1538461538476</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">服务费</Data></Cell>
+    <Cell><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">服务费</Data></Cell>
+    <Cell><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">服务费</Data></Cell>
+    <Cell><Data ss:Type="Number">5000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">贷款手续费</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">贷款手续费</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">贷款手续费</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">保险</Data></Cell>
+    <Cell><Data ss:Type="Number">5800</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">保险</Data></Cell>
+    <Cell><Data ss:Type="Number">5800</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">保险</Data></Cell>
+    <Cell><Data ss:Type="Number">5800</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s62" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data
+      ss:Type="Number">152687.1794871795</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s62" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data
+      ss:Type="Number">164392.30769230769</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s62" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data
+      ss:Type="Number">162796.15384615384</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">3M贴模+3次保养</Data></Cell>
+    <Cell><Data ss:Type="Number">1800</Data></Cell>
+    <Cell><Data ss:Type="String">否则：送3桶油</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">行车记录仪送</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Index="27" ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:Formula="=100000/24"><Data ss:Type="Number">4166.666666666667</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Index="29" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">御桥路</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">自动豪华</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">指导价</Data></Cell>
+    <Cell><Data ss:Type="Number">165900</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">优惠</Data></Cell>
+    <Cell><Data ss:Type="Number">24000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">祼车价</Data></Cell>
+    <Cell ss:Formula="=R[-2]C-R[-1]C"><Data ss:Type="Number">141900</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">购置税</Data></Cell>
+    <Cell ss:StyleID="s62" ss:Formula="=R[-1]C/(1+17%) * (7.5%)"><Data
+      ss:Type="Number">9096.1538461538476</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">服务费</Data></Cell>
+    <Cell><Data ss:Type="Number">5000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">贷款手续费</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">保险</Data></Cell>
+    <Cell><Data ss:Type="Number">11600</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s62" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data
+      ss:Type="Number">168596.15384615384</Data></Cell>
+   </Row>
+   <Row ss:Index="41" ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">标的ID</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">标的名称</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">${projectId}</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">${projectName}</Data></Cell>
+   </Row>
+   <Row ss:Index="46" ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">投资ID</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">投资金额</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">投资人名称</Data></Cell>
+   </Row>
+   <#list invests as invest>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">${invest.id}</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">${invest.amount}</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">${invest.name}</Data></Cell>
+   </Row>
+   </#list>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <TopRowVisible>35</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>47</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
