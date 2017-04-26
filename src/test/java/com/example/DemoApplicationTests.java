@@ -13,8 +13,12 @@ import org.springframework.ui.freemarker.FreeMarkerTemplateUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.*;
+import java.util.zip.ZipInputStream;
+import java.util.zip.ZipOutputStream;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -27,6 +31,12 @@ public class DemoApplicationTests {
 	public void testWord() throws IOException, TemplateException {
 		Map<String, Object> model = new HashMap<String, Object>();
 		model.put("date", "2017年03月15日");
+		model.put("companyName", "王鹏企业管理");
+
+		model.put("userName", "userName");
+		model.put("lanage", "lanage");
+		model.put("aaaa", "aaaa");
+		model.put("bbbb", "bbbb");
 
 		List<Map<String, Object>> userLanages = new ArrayList<>();
 		for(int i = 0; i < 10; i++) {
@@ -38,11 +48,15 @@ public class DemoApplicationTests {
 			userLanages.add(userLanage);
 		}
 		model.put("userLanages", userLanages);
-
-		Template t = configuration.getTemplate("22.xml"); // freeMarker template
+		Template t = configuration.getTemplate("docx/zjdgxy/document.xml"); // freeMarker template
 		String content = FreeMarkerTemplateUtils.processTemplateIntoString(t, model);
-		System.out.println(content);
-		FileUtil.save(content.getBytes(), new File("/Users/dongdongshi/22.doc"));
+		FileUtil.save(content.getBytes(), new File("D:/file/zjdgxy_document.xml"));
+
+		// ZipUtils 是一个工具类，主要用来替换具体可以看github工程
+		ZipInputStream zipInputStream = ZipUtils.wrapZipInputStream(new FileInputStream(new File("D:/file/zjdgxy.zip")));
+		ZipOutputStream zipOutputStream = ZipUtils.wrapZipOutputStream(new FileOutputStream(new File("D:/file/zjdgxy.docx")));
+		String itemname = "word/document.xml";
+		ZipUtils.replaceItem(zipInputStream, zipOutputStream, itemname, new FileInputStream(new File("D:/file/zjdgxy_document.xml")));
 	}
 
 	@Test
@@ -64,9 +78,9 @@ public class DemoApplicationTests {
 		}
 		model.put("invests", invests);
 
-		Template t = configuration.getTemplate("44.xml"); // freeMarker template
+		Template t = configuration.getTemplate("66.xml"); // freeMarker template
 		String content = FreeMarkerTemplateUtils.processTemplateIntoString(t, model);
 		System.out.println(content);
-		FileUtil.save(content.getBytes(), new File("/Users/dongdongshi/44.xls"));
+		FileUtil.save(content.getBytes(), new File("d:/66.xls"));
 	}
 }
